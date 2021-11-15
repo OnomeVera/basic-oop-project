@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="create">
+        <h1>Create Account</h1>
+        <form name="createAccForm">
+            <input type="text" placeholder="Enter User's Name" name="username">
+            <input type="text" placeholder="Enter User's Age" name="age">
+            <select name="accType" id="accType">
+                <option value="current">Current Account</option>
+                <option value="savings">Savings Account</option>
+            </select>
+            <input type="text" name="balance" placeholder="Enter Amount">
+            <label for="avatar">Upload user image</label>
+            <input type="file" name="avatar" id="avatar">
+
+            <div class="action-bar">
+                <button type="reset">Reset</button>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    <nav>
+        <button id="create-btn">
+            create Account
+        </button>
+    </nav>
+   
+    <div id="card-list"></div>
+    <!-- <script src="./app.js"></script> -->
+    <script src="./practice.js"></script>
+</body>
+</html>
